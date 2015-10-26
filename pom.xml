@@ -1,0 +1,32 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.techcable</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.9</version>
+    </parent>
+    <groupId>net.testificate</groupId>
+    <artifactId>reflecthax</artifactId>
+    <version>1.0.0-beta1-SNAPSHOT</version>
+    <properties>
+        <java.version>1.8</java.version>
+        <license.id>MIT</license.id>
+        <license.owner>Testificate Team</license.owner>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    
+    <repositories>
+        <repository>
+            <id>techcable-repo</id>
+            <url>http://repo.techcable.net/content/groups/public/</url>
+        </repository>
+    </repositories>
+</project>
